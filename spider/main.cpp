@@ -19,7 +19,7 @@ unordered_set<string> visitedImg;
 int depth=0;
 int g_ImgCnt=1;
  
-//解析URL，解析出主机名，资源名
+//解析URL，解析出主机名，资源名test
 bool ParseURL( const string & url, string & host, string & resource){
 	if ( strlen(url.c_str()) > 2000 ) {
 		return false;
